@@ -1,0 +1,57 @@
+body{
+    background-color: gray;
+}
+
+.classh1{
+    text-align: center;
+    border: solid 10px white;
+    background-color: black;
+    transition-timing-function: ease;
+   transition-duration: 2s;
+   transition-property: all;
+    color: white;
+    padding: 20px;
+}
+.div1{
+    border: solid 10px black;
+    background-color: white;
+    animation-name: animação1;
+    animation-duration: 6s;   
+    animation-iteration-count: infinite;
+}
+@keyframes animação1{
+    0% {background-color: white;color: black}
+    25% {background-color: black;color: white}
+    50% {background-color: white;color: black}
+    75%{background-color: black;color: white}
+    100%{background-color: white;color: black}
+}
+@keyframes animação2{
+    0% {background-color: black;color: white}
+    25% {background-color: white;color: black}
+    50% {background-color: black;color: white}
+    75%{background-color: white;color: black}
+    100%{background-color: black;color: white}
+}
+.h2div1{
+    text-align: center;
+}
+.pdiv1{
+    text-align: center;
+}
+.div2{
+    border: solid 10px black;
+    background-color: white;
+    text-align: center;
+    animation-name: animação2;
+    animation-duration: 6s;   
+    animation-iteration-count: infinite;
+    margin-top: 40px;
+    padding: 10px;
+}
+.h2div2{
+    text-align: center;
+}
+.pdiv2{
+    text-align: center;
+}
